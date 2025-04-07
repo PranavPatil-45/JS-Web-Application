@@ -1,0 +1,29 @@
+#clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #121212;
+    font-family: 'Segment7Standard', monospace;
+}
+
+#digital-clock {
+    color: #0f0;
+    font-size: 5rem;
+    text-shadow: 0 0 10px #0f0;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #000;
+    border: 2px solid #333;
+}
+
+#date{
+    color: #0f0;
+    font-size: 3rem;
+    text-shadow: 0 0 10px #0f0;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #000;
+    border: 2px solid #333;
+}
